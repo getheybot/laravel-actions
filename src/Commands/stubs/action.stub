@@ -4,11 +4,6 @@ namespace {{ namespace }};
 
 class {{ class }}
 {
-    /**
-     * the real action execution, when called as object this is the return
-     * it has the route parameters already injected by `__invoke`
-     * authorization is executed always, but validate is manual
-     */
     public function handle()
     {
         // Add your awesome code 🚀
