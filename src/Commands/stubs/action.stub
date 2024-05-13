@@ -2,9 +2,6 @@
 
 namespace {{ namespace }};
 
-use Illuminate\Http\Request;
-use Illuminate\Routing\Router;
-
 class {{ class }}
 {
     /**
