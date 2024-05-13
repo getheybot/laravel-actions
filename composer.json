@@ -64,7 +64,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Heybot\\LaravelActions\\ActionServiceProvider"
+                "Heybot\\LaravelActions\\LaravelActionsServiceProvider"
             ],
             "aliases": {
                 "LaravelActions": "Heybot\\LaravelActions\\Facades\\Action"
