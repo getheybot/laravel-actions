@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @see \Heybot\LaravelActions\LaravelActions
  */
-class LaravelActions extends Facade
+class Actions extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
