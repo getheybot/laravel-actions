@@ -1,0 +1,28 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Http\Request;
+use Illuminate\Routing\Router;
+use Therealedatta\LaravelActions\Action;
+
+class {{ class }} extends Action
+{
+    /**
+     * optional, default `true` if method is missing (configurable in config/actions.php)
+     */
+    public function authorize(): bool
+    {
+        return true;
+    }
+
+    /**
+     * the real action execution, when called as object this is the return
+     * it has the route parameters already injected by `__invoke`
+     * authorization is executed always, but validate is manual
+     */
+    public function handle()
+    {
+        // Add your awesome code 🚀
+    }
+}
