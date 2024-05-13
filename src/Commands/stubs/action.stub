@@ -5,14 +5,6 @@ namespace {{ namespace }};
 class {{ class }}
 {
     /**
-     * optional, default `true` if method is missing (configurable in config/actions.php)
-     */
-    public function authorize(): bool
-    {
-        return true;
-    }
-
-    /**
      * the real action execution, when called as object this is the return
      * it has the route parameters already injected by `__invoke`
      * authorization is executed always, but validate is manual
